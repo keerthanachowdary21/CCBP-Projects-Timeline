@@ -1,3 +1,4 @@
+[WebSite Link](https://ccbpprojectsk.ccbp.tech/)
 In this project, let's build a **CCBP Timeline** by applying the concepts we have learned till now.
 
 ### Refer to the image below:
@@ -70,8 +71,8 @@ The app must have the following functionalities
     |   duration   |  String   |
     |  projectUrl  |  String   |
 
-- If the value of the key `categoryId` in `timelineItemObject` is `PROJECT` then Project card should be rendered
-  - The `ProjectTimelineCard` should consist of **Visit** link when a user clicks on it, then the page should be navigated to the respective project
+- If the value of the key `categoryId` in `timelineItemObject` is `PROJECT` then the Project card should be rendered
+  - The `ProjectTimelineCard` should consist of **Visit** link when a user clicks on it, and then the page should be navigated to the respective project
   - The `ProjectTimelineCard` should consist of a **Calendar** icon with respective `duration` text
 - If the value of the key `categoryId` in `timelineItemObject` is `COURSE` then the Course card should be rendered
   - The `CourseTimelineCard` should consist of a **Clock** icon with respective `duration` text
@@ -115,7 +116,7 @@ Use these files to complete the implementation:
 
 **The following instructions are required for the tests to pass**
 
-- `AiFillClockCircle`, `AiFillCalendar` icons from `react-icons` should be used for **clock** and **calender** icons in card respectively
+- `AiFillClockCircle`, `AiFillCalendar` icons from `react-icons` should be used for **clock** and **calender** icons in the card respectively
 
 </details>
 
@@ -141,9 +142,3 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
